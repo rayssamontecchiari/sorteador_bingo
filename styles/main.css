@@ -1,0 +1,26 @@
+@import "variables.css";
+@import "raffle.css";
+@import "table.css";
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body,
+button{
+    font-family: 'Indie Flower', cursive;
+}
+
+body{
+    position: relative;
+}
+
+.tltle{
+    color: var(--red-500);
+    font-size: 8em;
+    margin-bottom: 30px;
+    text-align: center;
+    cursor: pointer;
+}

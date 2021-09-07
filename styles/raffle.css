@@ -1,0 +1,30 @@
+.raffle{
+    text-align: center;
+
+}
+
+.raffle-button{
+    border: 4px var(--black-) dashed;
+    background-color: var(--red-300);
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    color: var(--white-);
+    cursor: pointer;
+    text-transform: uppercase;
+    font-size: 22px;
+    margin-bottom: 30px;
+    
+}
+
+.raffle-button-number{
+    font-size: 60px;
+}
+
+.raffle-button:hover{
+    background: var(--red-200);
+}
+
+.raffle-button:active{
+    background: var(--red-300);
+}
